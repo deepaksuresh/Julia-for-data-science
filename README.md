@@ -14,4 +14,4 @@ Follow the steps below to get started with the notebooks
     - `add StatsPlots@0.14.5`
 5. Exit Pkg mode by pressing backspace or ^C
 6. Launch IJulia with `using IJulia`
-7. Start notebook with `notebook`
+7. Start notebook with `notebook()`
