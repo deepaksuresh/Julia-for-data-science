@@ -12,3 +12,6 @@ Follow the steps below to get started with the notebooks
     - `add DataFrames@0.21.0`
     - `add IJulia@1.21.2`
     - `add StatsPlots@0.14.5`
+5. Exit Pkg mode by pressing backspace or ^C
+6. Launch IJulia with `using IJulia`
+7. Start notebook with `notebook`
