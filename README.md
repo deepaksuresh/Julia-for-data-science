@@ -3,6 +3,7 @@
 Follow the steps below to get started with the notebooks
 
 1. Install JuliaPro from [here](https://juliacomputing.com/products/juliapro). You can find instructions for installation in the [documentation](https://juliacomputing.com/docs/). 
+    - In order to run in multi-threaded mode you will have to set number of threads Julia starts up with is controlled by an environment variable called JULIA_NUM_THREADS. On Linux/OSX, from Bash, execute `export JULIA_NUM_THREADS=10` or C shell on Linux/OSX, CMD on Windows, execute `set JULIA_NUM_THREADS=10` or Powershell on Windows execute `$env:JULIA_NUM_THREADS=10`
 2. Launch Julia repl in JuliaPro
 3. Switch to Pkg mode by pressing `]`
 4. Install packages with the commands below
